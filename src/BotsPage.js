@@ -71,7 +71,7 @@ class BotsPage extends Component {
     return (
       <div>
         <YourBotArmy
-          bots={botArmy}
+          bots={YourBotArmy}
           action={this.removeFromArmy}
           removeCard={this.removeBotPermanently} />
         {collectionVisible
@@ -80,7 +80,7 @@ class BotsPage extends Component {
             action={this.displayBotSpecs}
             removeCard={this.removeBotPermanently} />
           : < BotSpecs
-            bot={botSpecs}
+            bot={BotSpecs}
             back={this.displayBotCollection}
             enlist={this.addToArmy} />
         }
