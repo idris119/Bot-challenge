@@ -1,3 +1,4 @@
+
 import React from "react";
 
 
@@ -74,4 +75,4 @@ const BotSpecs = props => {
   )
 }
 
-export default BotSpecs
+export default BotSpecs;
