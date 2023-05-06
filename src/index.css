@@ -1,0 +1,17 @@
+* {
+  background-color:rgb(117, 117, 201);
+}
+.bot-army {
+  overflow-x: scroll;
+  min-height: 300px;
+  max-width: 100%;
+}
+
+.ui.grid > .row.bot-army-row {
+  flex-wrap: wrap;
+  min-height: 100%;
+}
+
+.ui.grid {
+  padding: 0px 20px;
+}
